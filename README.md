@@ -65,6 +65,8 @@ you can pass some properties in to customize the default behavior.
   `skipEmailSignup` option is also used.
 * `fastAnimation`: (Boolean, default _false_) Fast forwards through the intro
   animation and makes the action form appear much faster.
+* `show_on_date`: (Date, default _new Date(2017, 6, 12)_) Date the widget will
+  appear. Current Default is July 12th, 2017.
 
 #### Customized modal examples:
 
