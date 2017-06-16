@@ -314,8 +314,8 @@ var ready = function() {
 		// Only show on configured date (default: July 12th, 2017)
 		var today = new Date();
 		if (today.getFullYear() !== _bftn_options.show_on_date.getFullYear() ||
-			today.getDate() !== _bftn_options.show_on_date.getDate() ||
-			today.getMonth() !== _bftn_options.show_on_date.getMonth()) {
+			today.getMonth() !== _bftn_options.show_on_date.getMonth() ||
+			today.getDate() !== _bftn_options.show_on_date.getDate()) {
 			return;
 		}
 	}
