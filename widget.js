@@ -63,6 +63,10 @@ if (typeof _bftn_options.debug == "undefined")
 if (typeof _bftn_options.always_show_widget == "undefined")
 	_bftn_options.always_show_widget = false;
 
+// The date that the widget will appear
+if (typeof _bftn_options.show_on_date == "undefined")
+	_bftn_options.show_on_date = new Date(2017, 6, 12)
+
 /**
 --------------------------------------------------------------------------------
 ANIMATION DEFINITIONS
@@ -307,9 +311,11 @@ var ready = function() {
 			return;
 		}
 
-		// Only show on September 10th 2014.
-		// JL HACK ~ remove before the end of September >_>
-		if (new Date().getDate() < 10) {
+		// Only show on configured date (default: July 12th, 2017)
+		var today = new Date();
+		if (today.getFullYear() !== _bftn_options.show_on_date.getFullYear() ||
+			today.getDate() !== _bftn_options.show_on_date.getDate() ||
+			today.getMonth() !== _bftn_options.show_on_date.getMonth()) {
 			return;
 		}
 	}
