@@ -16,7 +16,7 @@ How it works
 #### Non-technical version:
 
 * Developer embeds widget code snippet on their site (either modal or banner)
-* On September 10th, 2014, users are shown the widget on their first page view
+* On July 12th, 2017, users are shown the widget on their first page view
 * Users can interact with or dismiss the widget
 * A cookie is written so the user doesn't see the widget again
 
@@ -100,7 +100,7 @@ Installation Instructions (Banner)
 The banner shows up in one of the corners (you can customize), or as a strip
 along the top or bottom on mobile devices. You can choose a light or dark theme.
 
-**To show the banner on September 10th, paste this code into your `HEAD` tag:**
+**To show the banner on July 12th, paste this code into your `HEAD` tag:**
 ```html
 <script type="text/javascript">
     var _bftn_options = { animation: 'banner' }
@@ -149,14 +149,14 @@ other options in to customize the position of the banner on-screen.
 
 How to test the banner/modal
 ----------------------------
-**The widget is designed to only appear on September 10th, 2014**, and only
+**The widget is designed to only appear on July 12th, 2017**, and only
 once, per user, per device. If you'd like to force it to show up on your page
 for testing, please (re)load the page with #SHOW_BFTN_WIDGET in the URL.
 
 
 Embed the Modal on your blog
 ----------------------------
-If you want to show off the modal to your users prior to September 10th
+If you want to show off the modal to your users prior to July 12th
 (thanks!) you can use this code to directly embed it on your page:
 
 **To embed the action form on your page, use this code:**
